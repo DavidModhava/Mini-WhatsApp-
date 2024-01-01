@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE EDIT TASK</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Profile edit task.css" type="text/css">
+    <script src="PROFILE EDIT TASK.js"></script>
+</head>
+<body>
+
+<div class="container-fluid profile">
+<div class="container" style="background: linear-gradient(45deg,red, aqua,yellow,violet);">
+<div class="row">
+    <div class="col-3" id="ch">
+    <button class="btn btn-danger" id="history">CHATS</button>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#history").click(function(){
+                $("#history1").toggle();
+            });
+            $("#history").click(function(){
+                $("#video").hide();
+            });
+        });
+    </script>
+
+
+    <div class="col-3" id="ch">
+        <button class="btn btn-warning" id="vid">STORIES</button>
+    </div>
+    <div class="col-6" id="bio">
+        <div style="background: aquamarine;width: 0px 0px 0px;
+        height: 188px;margin: 16px 0px 0px 0px;border-radius: 127px;
+        border: 3px solid;">
+        <div style="display: inline-block;width: 46%; margin: 52px 0px 0px 6px;">
+        <span>Peterbucks</span>
+        <h5 >Write Bio</h5>
+        </div>
+        <div  style="float: right;width: 52%;">
+            <img src="mab img.jpeg" alt="">
+            <input type="file" name="" value="EDIT" placeholder="EDIT" id="pp">
+            <script>
+            const image = document.querySelector("img"),
+                input = document.querySelector("input");
+            input.addEventListener("change",() => {
+                image.src=URL.createObjectURL(input.files[0]);
+            });
+            </script>
+        </div>
+</div>
+</div>
+</div>
+
+<!-- ------------------------------------------------------------------------------- -->
+
+<div class="row" id="history1" style="  margin: 66px 0px 0px 0px; display: none;" >
+<div class="col-3">
+
+<div class="ck">
+<input type="checkbox" name="" value="" id="dp">
+<span>Ramesh</span>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#dp").click(function(){
+            $(".ct").toggle();
+        });
+        $("#dp2").click(function(){
+            $(".ct").toggle();
+        });
+        $("#dp3").click(function(){
+            $(".ct").toggle();
+        });
+        $("#dp4").click(function(){
+            $(".ct").toggle();
+        });
+        $("#dp5").click(function(){
+            $(".ct").toggle();
+        });
+    });
+
+</script>
+
+<div class="ck">
+    <input type="checkbox" name="" value="" id="dp2" >
+    <span>Mahesh</span>
+    
+</div>
+
+<div class="ck">
+    <input type="checkbox" name="" value="" id="dp3">
+    <span>Kumesh</span>
+</div>
+
+<div class="ck">
+    <input type="checkbox" name="" value="" id="dp4">
+    <span>Naresh</span>
+</div>
+
+<div class="ck">
+    <input type="checkbox" name="" value="" id="dp5">
+    <span>Rajesh</span>
+</div>
+</div>
+
+<div class="col-9" style="background: aquamarine;
+height: 848px;
+border: 3px groove blueviolet; display:block;" id="dp1">
+<div class="ct">
+    <p>Hai</p>
+    <h1 id="wh"></h1>
+</div>
+<div class="ct" style="float: right;">
+    <p>What Are Doing</p>
+    <h1 id="wh"></h1>
+</div>
+<div class="ct">
+    <p>I am doing Junior Software developer course</p>
+    <h1 id="wh"></h1>
+</div>
+<div class="ct" style="float: right;">
+    <p>Oh Good</p>
+    <h1 id="wh"></h1>
+</div>
+</div>
+</div>
+
+<!-- ------------------------------------------------------------------------------- -->
+
+<div class="row" id="video" style="display: none;">
+    <script>
+    $(document).ready(function(){
+        $("#vid").click(function(){
+            $("#video").toggle();
+        });
+        $("#vid").click(function(){
+            $("#history1").hide();
+        });
+    });
+    </script>
+<div class="col-12">
+<div class="stor">
+    <div id="play"><video src="CONGO PLAYING SONG.mp4" width="20%" height="400px" controls muted autoplay >Congo Playing</video> 
+    <h1> Congo Playing</h1>
+    </div><br>
+    <div id="play"><video src="OKASARI  SONG.mp4" width="20%" height="400px" controls muted autoplay>Okasari song</video>
+    <h1>Okasari song</h1>
+    </div><br>
+    <div id="play"><video src="WAY MAKER SONG.mp4" width="20%" height="400px" controls muted autoplay>Way maker</video>
+    <h1>Way Maker song</h1>
+    </div><br>
+    <div id="play"><video src="CONGO PLAYING SONG.mp4" width="20%" height="400px" controls muted autoplay>Congo playing</video>
+    <h1>Congo Playing</h1>
+    </div><br>
+    <div id="play"><video src="OKASARI  SONG.mp4" width="20%" height="400px" controls muted autoplay>Okasari song</video>
+    <h1>Okasari song</h1>
+    </div><br>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+    
+
+    
+</body>
+</html>

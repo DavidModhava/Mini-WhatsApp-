@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.profile{
+    height: 1596px;
+    background: url(sea\ pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wh{
+    background: green;
+  width: 6%;
+  height: 25px;
+  text-align: center;
+  margin: 27px 0px 0px 108px;
+  transform: rotate(45deg);
+}
+#ch{
+
+}
+#ch button{
+
+    width: 100%;
+    height: 108px;
+    margin: 63px 0px 0px 0px;
+}
+
+#bio{
+
+}
+#bio img{
+
+    border-radius: 124px;
+    width: 41%;
+    height: 108px;
+    border: 2px solid;
+    box-shadow: 0px 0px 3px 1px black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*! padding: 0px 62px 0px 36px; */
+    margin: 37px 22px 0px -32px;
+}
+#bio button{
+    
+    margin: 27px 0px 0px 0px;
+}
+#bio span{
+    font-size: 20px;
+    margin: 31px 156px 1px 54px;
+}
+#bio h5{
+
+    /*! float: left; */
+    display: inline-block;
+    margin: 4px 124px 0px 72px;
+    width: 58%;
+}
+
+/* ---------------------------------------------- */
+
+.ck{
+
+    border: 2px solid blueviolet;
+    margin: 0px 0px 128px 6px;
+    background: mediumspringgreen;
+    /*! height: 500px; */
+}
+.ck input{
+    
+    /*! padding: 3px; */
+    width: 37%;
+    height: 26px;
+    margin: 17px 0px 20px 0px;
+}
+.ck span{
+    
+    font-size: 1.2rem;
+}
+.ct{
+
+    width: 54%;
+    height: 118px;
+    background: green;
+    /*! align-items: center; */
+    float: left;
+    display: inline-block;
+    margin: 29px 29px 56px 23px;
+    border-radius: 33px;
+    display: none;
+}
+.ct p{
+    
+    text-align: center;
+    margin: 47px 0px 0px 0px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: it;
+}
+#blue{
+    
+
+}
+#pp{
+    
+    margin: 8px 0px 0px -8px;
+    width: 29%;
+}
+
+/* ---------------------------------------------- */
+
+.stor{
+
+}
+.stor video{
+    width: 20%;
+    height: 200px;
+    
+}
+#play{
+    width: 73%;
+  border-radius: 53px;
+  background: aqua;
+  margin: 49px 0px 0px 0px;
+
+}
+#play h1{
+    
+    float: right;
+    margin: 64px 281px 0px 1px;
+    font-family: it;
+}
+
+
+
